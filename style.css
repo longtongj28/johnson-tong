@@ -1,0 +1,154 @@
+body {
+    background: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+* {
+    max-width: 100%;
+    font-size: 20px;
+    scroll-behavior: smooth;
+}
+
+main {
+    position: relative;
+    display: flex;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    background: white;
+}
+
+nav a {
+    padding: 20px;
+    transition: all 0.15s;
+    cursor: pointer;
+    height: 100px;
+    font-size: 30px;
+    color: black;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+nav a:hover {
+    color: white;
+    background: black;
+}
+
+.overlay {
+    transition: all 0.5s;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+}
+
+.top-header-container {
+    position: relative;
+    transition: all 0.5s;
+    height: 500px;
+    max-height: 1000px;
+    background: url("https://images.squarespace-cdn.com/content/v1/5a317985b1ffb6d925d978cf/1563559230678-Z1P5GSSCFTNX3JJ2N9EV/DSCF7368.jpg?format=2500w");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0;
+    background-position: center;
+}
+
+.top-header-container h1 {
+    transition: all 1s;
+    font-weight: normal;
+    text-align: center;
+    font-size: 65px;
+}
+
+.makeBigger {
+    transform: scale(1.025);
+}
+
+.makeSmaller {
+    transform: scale(1);
+}
+
+.bottom-half-section-right {
+    padding: 50px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.heading-large {
+    font-size: 45px;
+}
+
+.about-item {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: solid;
+    margin: 30px;
+}
+
+.about-item h1 {
+    width: 100%;
+    text-align: center;
+}
+
+.about-item span img {
+    height: 300px;
+    margin: 30px;
+    max-width: 100%;
+}
+
+.about-item table {
+    width: 800px;
+}
+
+.about-item tr {
+    width: 800px;
+}
+
+.about-item th,
+td {
+    border: solid;
+}
+
+.about-item td {
+    padding: 10px;
+}
+
+.brisket-about h2 {
+    text-align: center;
+    margin: 20px;
+}
+
+.brisket-about li {
+    margin: 20px;
+}
+
+.brisket-about ul {
+    margin: 30px;
+}
+
+.about-items-img-container {
+    justify-content: center;
+    max-width: 100%;
+}
