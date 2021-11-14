@@ -12,9 +12,18 @@ body {
     scroll-behavior: smooth;
 }
 
+footer {
+    padding: 20px;
+    border-top: solid;
+    background: black;
+    text-align: center;
+}
+
 main {
+    border-top: solid;
     position: relative;
     display: flex;
+    max-width: 100%;
 }
 
 nav {
@@ -105,7 +114,12 @@ nav a:hover {
     justify-content: center;
     border: solid;
     margin: 30px;
-    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.about-item div p {
+    padding: 10px;
 }
 
 .about-item h1 {
@@ -113,9 +127,12 @@ nav a:hover {
     text-align: center;
 }
 
+.about-item span {
+    max-width: 100%;
+}
+
 .about-item span img {
-    height: 300px;
-    margin: 30px;
+    max-height: 300px;
     max-width: 100%;
 }
 
