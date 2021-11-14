@@ -105,6 +105,7 @@ nav a:hover {
     justify-content: center;
     border: solid;
     margin: 30px;
+    padding: 20px;
 }
 
 .about-item h1 {
@@ -135,16 +136,16 @@ td {
     padding: 10px;
 }
 
-.brisket-about h2 {
+.about-item h2 {
     text-align: center;
     margin: 20px;
 }
 
-.brisket-about li {
+.about-item li {
     margin: 20px;
 }
 
-.brisket-about ul {
+.about-item ul {
     margin: 30px;
 }
 
